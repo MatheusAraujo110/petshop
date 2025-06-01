@@ -9,7 +9,7 @@ import tutor2 from "../../../public/about-2.png"
 import Image from "next/image"
 
 
-const testemonials = [
+const testimonials = [
     {
         content: "Desde que comecei a levar a Luna para banho e tosa aqui, ela nunca esteve tão feliz! O atendimento é impecável, os profissionais são super cuidadosos e sempre deixam minha peluda linda e cheirosa. Recomendo de olhos fechados!",
         author: "João",
@@ -53,7 +53,7 @@ export function Testimonials() {
                 <div className="relative max-w-4xl mx-auto">
                     <div className="overflow-hidden" ref={emblaRef}>
                         <div className="flex">
-                            {testemonials.map((item, index) => (
+                            {testimonials.map((item, index) => (
                                 <div key={index} className="flex-[0_0_100%] min-w-0 px-3 select-none">
                                     <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                                         <div className="flex flex-col items-center text-center space-y-4">
