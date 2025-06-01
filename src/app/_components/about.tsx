@@ -67,7 +67,7 @@ export function About() {
                                 className=" px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                             >
                                 Endereço da loja
-                                <MapPin className="w-5 h-5 text-black" />
+                                <MapPin className="w-5 h-5 text-black" color="#ff0000"/>
                             </a>
                         </div>
                     </div>
