@@ -58,8 +58,11 @@ export function Services() {
     }
 
     return (
-        <section className="bg-white py-16">
-            <div className="container mx-auto px-4">
+        <section
+            className="bg-white py-16"
+            data-aos="zoom-in">
+            <div className="container mx-auto px-4"
+            >
                 <h2 className="text-4xl font-bold mb-12">
                     SERVIÇOS
                 </h2>
@@ -87,8 +90,9 @@ export function Services() {
                                             </div>
 
                                             <a
-                                                href="#"
-                                                className="flex items-center justify-center gap-2"
+                                                target='_blank'
+                                                href={`https://wa.me/5521969535158?text=Olá, vim pelo site e gostaria de mais informaçõessobre ${item.title}`}
+                                                className="flex items-center justify-center gap-2 hover:bg-white text-black rounded-md py-2 px-2"
                                             >
                                                 <WhatsappLogoIcon className="w-6 h-6" color="#22c55e" />
                                                 Entrar em contato

@@ -18,7 +18,10 @@ const brands = [
 export function Footer() {
     return (
         <section className="bg-[#04201e] py-16 text-white">
-            <div className="container mx-auto px-4">
+            <div
+                className="container mx-auto px-4"
+                data-aos="fade-up"
+            >
                 <div className="border-b border-white/20 pb-8">
                     <h4 className="text-3xl font-semibold mb-8 text-center">Marca que trabalhamos</h4>
 
@@ -48,7 +51,8 @@ export function Footer() {
                         <h3 className="text-2xl font-semibold mb-2">Pet Shop</h3>
                         <p className="mb-4">Cuidando do seu melhor amigo com amore e dedicação.</p>
                         <a
-                            href="#"
+                            target='_blank'
+                            href={`https://wa.me/5521969535158?text=Olá, vim pelo site e gostaria de mais informações!`}
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                         >
                             <WhatsappLogoIcon className="w-5 h-5" />
@@ -68,10 +72,10 @@ export function Footer() {
                         <h3 className="text-2xl font-semibold mb-3">Redes Sociais</h3>
                         <div className="flex gap-5">
                             <a href="#">
-                                <FacebookLogoIcon className="w-8 h-8" color="#0000ff"/>
+                                <FacebookLogoIcon className="w-8 h-8" color="#0000ff" />
                             </a>
-                            <InstagramLogoIcon className="w-8 h-8" color="#fff"/>
-                            <TwitterLogoIcon className="w-8 h-8" color="#006aff"/>
+                            <InstagramLogoIcon className="w-8 h-8" color="#fff" />
+                            <TwitterLogoIcon className="w-8 h-8" color="#006aff" />
                         </div>
                     </div>
                 </footer>

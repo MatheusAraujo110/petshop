@@ -1,9 +1,8 @@
 "use client"
 
 import useEmblaCarousel from "embla-carousel-react"
-import { ChevronLeft, ChevronRight } from "lucide-react"
-import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr"
 
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import tutor1 from "../../../public/tutor1.png"
 import tutor2 from "../../../public/about-2.png"
 import Image from "next/image"
@@ -45,7 +44,10 @@ export function Testimonials() {
 
     return (
         <section className="bg-[#ffd449] py-16">
-            <div className="container mx-auto px-4">
+            <div
+                className="container mx-auto px-4"
+                data-aos="zoom-out-up"
+            >
                 <h2 className="text-4xl text-center font-bold mb-12">
                     Depoimentos
                 </h2>
